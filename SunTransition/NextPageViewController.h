@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NextPageViewController.h
 //  SunTransition
 //
 //  Created by 孙兆楠 on 16/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NextPageViewController : UIViewController
+@property (nonatomic, copy) NSString *str;
 @end

@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		12DFD3341D5F24F300C3A081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD3331D5F24F300C3A081 /* main.m */; };
 		12DFD3371D5F24F300C3A081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD3361D5F24F300C3A081 /* AppDelegate.m */; };
-		12DFD33A1D5F24F300C3A081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD3391D5F24F300C3A081 /* ViewController.m */; };
 		12DFD33D1D5F24F300C3A081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD33B1D5F24F300C3A081 /* Main.storyboard */; };
 		12DFD33F1D5F24F300C3A081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD33E1D5F24F300C3A081 /* Assets.xcassets */; };
 		12DFD3421D5F24F300C3A081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD3401D5F24F300C3A081 /* LaunchScreen.storyboard */; };
+		12DFD34C1D5F251B00C3A081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD34A1D5F251B00C3A081 /* ViewController.m */; };
+		12DFD34D1D5F251B00C3A081 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD34B1D5F251B00C3A081 /* ViewController.xib */; };
+		12DFD3561D5F25EE00C3A081 /* NextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD3541D5F25EE00C3A081 /* NextPageViewController.m */; };
+		12DFD3571D5F25EE00C3A081 /* NextPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD3551D5F25EE00C3A081 /* NextPageViewController.xib */; };
+		12DFD3591D5F2A2200C3A081 /* f7246b600c338744f1243597500fd9f9d62aa073.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD3581D5F2A2200C3A081 /* f7246b600c338744f1243597500fd9f9d62aa073.jpg */; };
+		12DFD35D1D5F31F000C3A081 /* NextPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD35B1D5F31F000C3A081 /* NextPageTableViewCell.m */; };
+		12DFD35E1D5F31F000C3A081 /* NextPageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12DFD35C1D5F31F000C3A081 /* NextPageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,20 @@
 		12DFD3331D5F24F300C3A081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12DFD3351D5F24F300C3A081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12DFD3361D5F24F300C3A081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12DFD3381D5F24F300C3A081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12DFD3391D5F24F300C3A081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12DFD33C1D5F24F300C3A081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12DFD33E1D5F24F300C3A081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12DFD3411D5F24F300C3A081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12DFD3431D5F24F300C3A081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DFD3491D5F251B00C3A081 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12DFD34A1D5F251B00C3A081 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12DFD34B1D5F251B00C3A081 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		12DFD3531D5F25EE00C3A081 /* NextPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageViewController.h; sourceTree = "<group>"; };
+		12DFD3541D5F25EE00C3A081 /* NextPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageViewController.m; sourceTree = "<group>"; };
+		12DFD3551D5F25EE00C3A081 /* NextPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextPageViewController.xib; sourceTree = "<group>"; };
+		12DFD3581D5F2A2200C3A081 /* f7246b600c338744f1243597500fd9f9d62aa073.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f7246b600c338744f1243597500fd9f9d62aa073.jpg; sourceTree = "<group>"; };
+		12DFD35A1D5F31F000C3A081 /* NextPageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageTableViewCell.h; sourceTree = "<group>"; };
+		12DFD35B1D5F31F000C3A081 /* NextPageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageTableViewCell.m; sourceTree = "<group>"; };
+		12DFD35C1D5F31F000C3A081 /* NextPageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextPageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +74,18 @@
 			children = (
 				12DFD3351D5F24F300C3A081 /* AppDelegate.h */,
 				12DFD3361D5F24F300C3A081 /* AppDelegate.m */,
-				12DFD3381D5F24F300C3A081 /* ViewController.h */,
-				12DFD3391D5F24F300C3A081 /* ViewController.m */,
+				12DFD3491D5F251B00C3A081 /* ViewController.h */,
+				12DFD34A1D5F251B00C3A081 /* ViewController.m */,
+				12DFD34B1D5F251B00C3A081 /* ViewController.xib */,
+				12DFD3531D5F25EE00C3A081 /* NextPageViewController.h */,
+				12DFD3541D5F25EE00C3A081 /* NextPageViewController.m */,
+				12DFD3551D5F25EE00C3A081 /* NextPageViewController.xib */,
+				12DFD35A1D5F31F000C3A081 /* NextPageTableViewCell.h */,
+				12DFD35B1D5F31F000C3A081 /* NextPageTableViewCell.m */,
+				12DFD35C1D5F31F000C3A081 /* NextPageTableViewCell.xib */,
 				12DFD33B1D5F24F300C3A081 /* Main.storyboard */,
 				12DFD33E1D5F24F300C3A081 /* Assets.xcassets */,
+				12DFD3581D5F2A2200C3A081 /* f7246b600c338744f1243597500fd9f9d62aa073.jpg */,
 				12DFD3401D5F24F300C3A081 /* LaunchScreen.storyboard */,
 				12DFD3431D5F24F300C3A081 /* Info.plist */,
 				12DFD3321D5F24F300C3A081 /* Supporting Files */,
@@ -136,9 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DFD3591D5F2A2200C3A081 /* f7246b600c338744f1243597500fd9f9d62aa073.jpg in Resources */,
 				12DFD3421D5F24F300C3A081 /* LaunchScreen.storyboard in Resources */,
 				12DFD33F1D5F24F300C3A081 /* Assets.xcassets in Resources */,
+				12DFD34D1D5F251B00C3A081 /* ViewController.xib in Resources */,
+				12DFD35E1D5F31F000C3A081 /* NextPageTableViewCell.xib in Resources */,
 				12DFD33D1D5F24F300C3A081 /* Main.storyboard in Resources */,
+				12DFD3571D5F25EE00C3A081 /* NextPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12DFD33A1D5F24F300C3A081 /* ViewController.m in Sources */,
+				12DFD34C1D5F251B00C3A081 /* ViewController.m in Sources */,
+				12DFD35D1D5F31F000C3A081 /* NextPageTableViewCell.m in Sources */,
 				12DFD3371D5F24F300C3A081 /* AppDelegate.m in Sources */,
+				12DFD3561D5F25EE00C3A081 /* NextPageViewController.m in Sources */,
 				12DFD3341D5F24F300C3A081 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NextPageViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f7246b600c338744f1243597500fd9f9d62aa073.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lAc-7C-3ez">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sya-yh-sHa">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="dissBtn:" destination="-1" eventType="touchUpInside" id="7yJ-VB-qjP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lAc-7C-3ez" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="G98-Ky-zuu"/>
+                <constraint firstAttribute="trailing" secondItem="sya-yh-sHa" secondAttribute="trailing" id="Hwy-7E-2uA"/>
+                <constraint firstItem="sya-yh-sHa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Nm8-uu-xzP"/>
+                <constraint firstItem="sya-yh-sHa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vnf-Cz-b5N"/>
+                <constraint firstAttribute="bottom" secondItem="sya-yh-sHa" secondAttribute="bottom" id="cPE-Gh-7EW"/>
+                <constraint firstAttribute="trailing" secondItem="lAc-7C-3ez" secondAttribute="trailing" id="gjv-zU-rfh"/>
+                <constraint firstAttribute="bottom" secondItem="lAc-7C-3ez" secondAttribute="bottom" id="rWh-J6-Sqv"/>
+                <constraint firstItem="lAc-7C-3ez" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="riR-bn-mDC"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="f7246b600c338744f1243597500fd9f9d62aa073.jpg" width="1024" height="768"/>
+    </resources>
+</document>
